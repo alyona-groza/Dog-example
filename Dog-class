@@ -1,0 +1,16 @@
+public class Dog {
+    private int weight;
+    private String name;
+    private String color;
+
+    public void eat() {
+        System.out.print("Eating...\n");
+    }
+    public void sleep() {
+        System.out.print("Sleeping zz-z-z..\n");
+    }
+    public String speak(String words) {
+        String phrase = words + "...woof...\n";
+        return phrase;
+    }
+}
