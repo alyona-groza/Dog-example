@@ -1,0 +1,9 @@
+public class Start {
+    public static void main(String[] args) {
+      Dog mydog = new Dog();
+      mydog.eat();
+      mydog.sleep();
+      String say = mydog.speak("Let's go outside");
+      System.out.print(say);
+    }
+}
