@@ -4,10 +4,10 @@ public class Dog {
     private String color;
 
     public void eat() {
-        System.out.print("Eating...\n");
+        System.out.print("Eating\n");
     }
     public void sleep() {
-        System.out.print("Sleeping zz-z-z..\n");
+        System.out.print("Sleeping\n");
     }
     public String speak(String words) {
         String phrase = words + "...woof...\n";
